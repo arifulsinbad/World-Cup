@@ -4,29 +4,45 @@ body{
     padding: 0;
 }
 .container{
+    width: 100%;
+    
+
+}
+.div-0{
     background-color: #161616;
     width: 80%;
-    margin-left: 106px;
+    margin: 0 10%;
     border-radius: 20px;
     margin-top: 50px;
-    height: 420px;
+    height: 390px;
     display: flex;
    
 
 }
+.div-2 img{
+    width: 20em;
+    margin-top: 4px;
+}
 .div-1{
    
     margin-left: 20px;
+    width: 100%;
 
     
 }
 .div-1 .h-1{
     color: rgb(219, 217, 217);
-    font-size: 5vw;
+    font-size: 4vw;
 }
 .div-2{
-    margin-top: 80px;
+    margin-top: 50px;
+ 
+    width: 100%;
 }
+.div-2 img{
+    
+}
+
 .p-1{
     color: rgb(228, 227, 227);
     font-size: 12px;
@@ -63,6 +79,7 @@ body{
     top: 1px;
 }
 .container-2{
+    width: 80%;
     display: flex;
     margin: 10%;
 
@@ -70,7 +87,7 @@ body{
 .blog{
     
     background-color: #161616;
-    width: 180px;
+    width: 70%;
     height: 200px;
     border-radius: 10px;
 }
@@ -113,7 +130,7 @@ h3{
 }
 .blog .a-3{
     text-decoration: none;
-    color: rgb(22, 20, 20);
+    color: rgb(255, 255, 255);
     position: relative;
     left: 10px;
     top: 15px;
@@ -163,10 +180,26 @@ p a{
     box-shadow: 10px 10px 40px gray;
     border-radius: 20px;
 }
+button{
+    display: none;
+    background-image: linear-gradient(orange, tomato);
+    border: none;
+    width: 100px;
+    padding: 15px;
+    border-radius: 20px;
+    color: aliceblue;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
 footer{
     text-align: center;
     background-color: #161616;
-    margin-bottom: 0;
+    margin: 0;
+    
+    position: absolute;
+    width: 100%;
+    
     
 }
 .h-2{
@@ -185,6 +218,112 @@ h6 a{
 margin: 0 20px;
 font-size: 20px;
 color: aliceblue;
+
 }
 
+/* tablet device */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .container-2{
+        flex-direction: column;
+    }
+    .blog{
+        width: 100%;
+        height: 100px;
+        margin-bottom: 50px;
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+    .blog h3 .a-1 {
+        position: relative;
+        top: 15px;
+        margin-right: 15px;
+
+    }
+    .blog h3 .a-2 {
+
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        margin-left: 10px;
+
+    }
+    
+    
+    .div-4{
+        margin-right: 20px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .div-4 .none{
+        display: none;
+    }
+    button{ 
+        display: block;
+        margin: 5% 86%;
+    }
+
+    
+    
+}
+
+/* Mobile device */
+@media only screen and (max-width: 688px) {
+    
+    .div-0{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .div-1{
+        width: 50%;
+        margin: 0 25%;
+        text-align: center;
+    }
+    .div-1 .h-1{
+        font-size: 20px;
+    }
+    
+    
+    
+    .dive-2{
+        width: 100%;
+        
+    }
+    .div-2 img{
+        width: 100%;
+        position: relative;
+        top: 5px;
+    }
+    
+
+  
+
+    
+        
+    
+    .container-2 {
+        flex-direction: column;
+
+    }
+    
+    .blog{
+        background-color: white;
+        width: 100%;
+    }
+    .div-4{
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 10%;
+        
+    }
+    footer .span-4 a{
+        display: block;
+       
+        padding: 10px 0px ;
+    
+    }
+
+    
+}
 
