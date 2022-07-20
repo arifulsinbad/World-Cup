@@ -116,6 +116,9 @@ h3{
 
   
 }
+.blog .a-1:hover{
+    background-image: linear-gradient(orange, tomato);
+}
 .blog .a-2{
     text-decoration: none;
     color: rgb(19, 17, 17);
