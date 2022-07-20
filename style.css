@@ -22,17 +22,20 @@ body{
 .div-2 img{
     width: 20em;
     margin-top: 4px;
+    position: relative;
+    
 }
 .div-1{
    
     margin-left: 20px;
     width: 100%;
+    margin-bottom: 30px;
 
     
 }
 .div-1 .h-1{
     color: rgb(219, 217, 217);
-    font-size: 4vw;
+    font-size: 3vw;
 }
 .div-2{
     margin-top: 50px;
