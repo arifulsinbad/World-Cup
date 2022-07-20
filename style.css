@@ -1,3 +1,190 @@
 body{
     font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
 }
+.container{
+    background-color: #161616;
+    width: 80%;
+    margin-left: 106px;
+    border-radius: 20px;
+    margin-top: 50px;
+    height: 420px;
+    display: flex;
+   
+
+}
+.div-1{
+   
+    margin-left: 20px;
+
+    
+}
+.div-1 .h-1{
+    color: rgb(219, 217, 217);
+    font-size: 5vw;
+}
+.div-2{
+    margin-top: 80px;
+}
+.p-1{
+    color: rgb(228, 227, 227);
+    font-size: 12px;
+    padding-bottom: 30px;
+}
+@keyframes sliding {
+    from{
+        background-color:rgb(255, 72, 0) ;
+        left: 0%;
+    }
+    to{
+        background-color: rgb(255, 71, 86);
+        color: rgb(194, 219, 79);
+    }
+    
+}
+
+.span-1, .live{
+    color: rgb(240, 237, 237);
+    text-decoration: none;
+    
+    letter-spacing: 2px;
+    font-weight: bolder;
+    animation: sliding 1s ease-out 0.5s infinite alternate ;
+    animation-play-state: running;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+    
+}
+.fa-angle-right{
+    position: relative;
+    left: 5px;
+    top: 1px;
+}
+.container-2{
+    display: flex;
+    margin: 10%;
+
+}
+.blog{
+    
+    background-color: #161616;
+    width: 180px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+    
+h3{
+    text-align: center;
+    margin-right: 20px;
+    position: relative;
+    top: 20px;
+    
+
+}
+.blog .a-1{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: 10px;
+    bottom: 5px;
+    text-align: center;
+    background-color: aliceblue;
+
+    padding: 5px 50px;
+    border-radius: 7px;
+
+  
+}
+.blog .a-2{
+    text-decoration: none;
+    color: rgb(19, 17, 17);
+    position: relative;
+    left: 10px;
+    top: 5px;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 5px 35px;
+    border-radius: 7px;
+
+  
+}
+.blog .a-3{
+    text-decoration: none;
+    color: rgb(22, 20, 20);
+    position: relative;
+    left: 10px;
+    top: 15px;
+    text-align: center;
+    background-color: rgb(255, 67, 82);
+    padding: 5px 55px;
+    border-radius: 7px;
+  
+}
+
+p a{
+    text-decoration: none;
+    color: grey;
+    border: 1px solid gray;
+    padding: 1px 5px;
+    border-radius: 5px;
+}
+
+.span-2{
+    position: relative;
+    left: 5px;
+    color: gray;
+}
+.span-3{
+    padding: 0 10px;
+    position: relative;
+    left: 50px;
+    color: gray;
+    
+}
+.div-6{
+    margin-left: 10px;
+}
+.div-4{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    grid-row-gap: 10px;
+    margin-left: 20px;
+    grid-column-gap: 20px;
+}
+.div-5 img{
+    width: 100%;
+}
+.div-5:hover{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+}
+footer{
+    text-align: center;
+    background-color: #161616;
+    margin-bottom: 0;
+    
+}
+.h-2{
+    color: aliceblue;
+}
+hr{
+    width: 70%;
+    color: gray;
+}
+.span-4 a{
+    text-decoration: none;
+    margin: 0 20px;
+    color: aliceblue;
+}
+h6 a{
+margin: 0 20px;
+font-size: 20px;
+color: aliceblue;
+}
+
+
